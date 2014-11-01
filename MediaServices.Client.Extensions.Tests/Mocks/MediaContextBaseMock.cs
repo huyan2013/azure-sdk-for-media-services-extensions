@@ -51,5 +51,40 @@ namespace MediaServices.Client.Extensions.Tests.Mocks
         public override NotificationEndPointCollection NotificationEndPoints { get { throw new NotImplementedException(); } }
         public override StorageAccountBaseCollection StorageAccounts { get { return _storageAccounts; } }
 
+
+        public override Microsoft.WindowsAzure.MediaServices.Client.DynamicEncryption.AssetDeliveryPolicyCollection AssetDeliveryPolicies
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public override ChannelBaseCollection Channels
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public override Microsoft.WindowsAzure.MediaServices.Client.ContentKeyAuthorization.ContentKeyAuthorizationPolicyCollection ContentKeyAuthorizationPolicies
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public override Microsoft.WindowsAzure.MediaServices.Client.ContentKeyAuthorization.ContentKeyAuthorizationPolicyOptionCollection ContentKeyAuthorizationPolicyOptions
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public override OperationBaseCollection Operations
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public override ProgramBaseCollection Programs
+        {
+            get { throw new NotImplementedException(); }
+        }
+
+        public override StreamingEndpointBaseCollection StreamingEndpoints
+        {
+            get { throw new NotImplementedException(); }
+        }
     }
 }
